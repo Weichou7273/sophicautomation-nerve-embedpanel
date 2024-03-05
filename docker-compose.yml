@@ -1,0 +1,18 @@
+version: '3.0'
+
+services:
+  grafana:
+    container_name: 'sophicautomation-nerve-embedpanel'
+    platform: 'linux/amd64'
+    build:
+      context: ./.config
+      args:
+        grafana_image: ${GRAFANA_IMAGE:-grafana-enterprise}
+        grafana_version: ${GRAFANA_VERSION:-10.0.3}
+    ports:
+      - 3800:3000/tcp
+    environment:
+      - GF_INSTALL_PLUGINS=marcusolsson-static-datasource
+    volumes:
+      - ./dist:/var/lib/grafana/plugins/sophicautomation-nerve-embedpanel
+      - ./provisioning:/etc/grafana/provisioning

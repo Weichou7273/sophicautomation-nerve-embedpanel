@@ -1,0 +1,29 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
+  "dependencies": {
+    "grafanaDependency": ">=9.0.0",
+    "plugins": []
+  },
+  "id": "sophicautomation-nerve-embedpanel",
+  "info": {
+    "author": {
+      "name": "sophicautomation"
+    },
+    "description": "This panel plugin is to create a table that consist of datetime, title, status, action button (link)",
+    "keywords": ["panel"],
+    "logos": {
+      "large": "img/logo.svg",
+      "small": "img/logo.svg"
+    },
+    "screenshots": [
+      {
+        "name": "Panel",
+        "path": "img/dashboard.png"
+      }
+    ],
+    "updated": "%TODAY%",
+    "version": "%VERSION%"
+  },
+  "name": "Nerve",
+  "type": "panel"
+}
