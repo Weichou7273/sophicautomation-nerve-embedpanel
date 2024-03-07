@@ -9,7 +9,7 @@
     "react-dom": "^18.2.0",
     "tslib": "^2.6.2"
   },
-  "description": "This panel plugin is to create a table that consist of datetime, title, status, action button (link)",
+  "description": "This panel plugin is to embed website",
   "devDependencies": {
     "@babel/core": "^7.23.2",
     "@grafana/e2e": "^10.1.5",

@@ -9,7 +9,7 @@
     "author": {
       "name": "sophicautomation"
     },
-    "description": "This panel plugin is to create a table that consist of datetime, title, status, action button (link)",
+    "description": "This panel plugin is to embed website",
     "keywords": ["panel"],
     "logos": {
       "large": "img/logo.svg",
